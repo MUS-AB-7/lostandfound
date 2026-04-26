@@ -5,6 +5,7 @@ import SockJS from 'sockjs-client'
 import { Stomp } from 'stompjs/lib/stomp'
 
 const API_BASE = import.meta.env.VITE_BACKEND_URL
+console.log("API_BASE:", API_BASE);
 const TOKEN_KEY = 'lostfound.token'
 const ROLE_KEY = 'lostfound.role'
 
